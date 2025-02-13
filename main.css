@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+    right: 1%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: slategrey;
+    background-size: 0;
+    background-position: center;
+}
+
+header {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2% 15%;
+}
+
+header .image{
+    width: 10%;
+}
+
+header .logo {
+    font-size: 10px;
+    color: black;
+    width: 20%;
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    transform: scale(1.2);
+}
+
+.ivan {
+    width: 25%;
+    position: absolute;
+    height: auto;
+    top: 25%;
+    right: 15%;
+}
+.TEXT {
+    position: absolute;
+    height: 30%;
+    top: 25%;
+    left: 18%;
+    color: white;
+    font-size: 300%;
+    width: 30%;
+}
+
+.ivans {
+    width: 40%;
+    position: absolute;
+    height: auto;
+    top: 110%;
+    right: 55%;
+}
+.TEXTNT {  
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;  
+    height: 1000px;     
+    font-size: 300%;   
+    color: white; 
+}
+.TEXTsT {
+    position: absolute;
+    height: 30%;
+    top: 120%;
+    left: 55%;
+    color: white;
+    font-size: 300%;
+    width: 30%;
+}
+.aaa {
+    color: aqua;
+}
+.community_text {
+    position: absolute;
+    height: 30%;
+    top: 210%;
+    left: 39%;
+    color: white;
+    font-size: 300%;
+    width: 30%;
+}
+.tag {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;  
+    height: 800px;     
+    font-size: 100%;  
+    width: 100%;
+}
+.telegram {
+    position: absolute;
+    height: 20%;
+    top: 220%;
+    left: 31%;
+    color: white;
+    font-size: 200%;
+    width: 20%;       
+}
